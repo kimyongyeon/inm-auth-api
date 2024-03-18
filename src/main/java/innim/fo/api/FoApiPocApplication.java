@@ -1,0 +1,15 @@
+package innim.fo.api;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.openfeign.EnableFeignClients;
+
+@SpringBootApplication
+@EnableFeignClients
+public class FoApiPocApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(FoApiPocApplication.class, args);
+    }
+
+}
